@@ -1,5 +1,8 @@
 
 from setuptools import setup
+
+from setuptools import find_packages
+
 setup(
     name = 'pysenha',
     version = '3.0.0',
@@ -11,5 +14,10 @@ setup(
     url = 'https://github.com/batestin1/',
     project_urls = {'Download' : 'https://github.com/batestin1/', 'Codigo fonte' : 'https://github.com/batestin1/'},
     keywords = 'a way to make your life easier',
-    classifiers = []
+    classifiers = [],
+    install_requires=[
+            'random',
+            'yagmail',
+            'datetime'
+        ]
 )

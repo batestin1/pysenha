@@ -39,6 +39,3 @@ def pysenha(sender,sender_password,recipient, d, old_password):
 
     """)
     print(f"Email sent to {recipient} successfully!")
-
-
-pysenha("nacascastudio@gmail.com","cacau2020","mayconcipriano@gmail.com", 45, "w6q2ww6ew4o2wqw")

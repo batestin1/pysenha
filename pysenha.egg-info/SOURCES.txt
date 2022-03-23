@@ -6,4 +6,5 @@ pysenha/pysenha.py
 pysenha.egg-info/PKG-INFO
 pysenha.egg-info/SOURCES.txt
 pysenha.egg-info/dependency_links.txt
+pysenha.egg-info/requires.txt
 pysenha.egg-info/top_level.txt
