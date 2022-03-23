@@ -8,5 +8,3 @@
 
 
 from .pysenha import *
-
-    

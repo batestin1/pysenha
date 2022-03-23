@@ -5,7 +5,7 @@ from setuptools import find_packages
 
 setup(
     name = 'pysenha',
-    version = '3.0.0',
+    version = '4.0.0',
     author = 'Bates',
     author_email = 'Bates@mailer.com.br',
     packages = ['pysenha'],
@@ -16,7 +16,6 @@ setup(
     keywords = 'a way to make your life easier',
     classifiers = [],
     install_requires=[
-            'random',
             'yagmail',
             'datetime'
         ]
