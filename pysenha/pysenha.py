@@ -19,7 +19,7 @@ def pysenha(sender,sender_password,recipient, d, old_password):
        
     old = old_password
     old = old.replace("", "-")
-    old = old.split('-')[1:17]
+    old = old.split('-')[1:18]
     new = []
     for i in range(len(old)):
         a = random.choice(old)
