@@ -8,27 +8,32 @@
 
 >> <h3> Resume </h3>
 
-<p> gerador de senha </p>
+<p> generator password with calendar </p>
 
 >> <h3> How install </h3>
 
 ```
-pip install pysenha
+pip install pysenha==6.0.0
 
 ```
 >> <h3> How Works </h3>
 
 ```
-pysenha(sender,sender_password,recipient, d, old_password)
+pysenha(recipient, d, old_password)
 
-#sender = This is a string and means a email of who will send.
-#sender_password = This is a string and means a sender password that will send the email.
+
 #recipient = This is a string and means the email of the recipient who will receive the message.
 #d = This is a int and means The number of days, starting today, that you need to schedule yourself to #change your password
 #old_password = This is a string and means your current password and it will be changed!
 
 #As an exit you will receive the following message:
-Email sent to {recipient} successfully!
+ ######################################
+    CHEGOU O DIA DE TROCAR A SUA SENHA.
+    #######################################
+    SENHA ATUAL > {old_password}
+    #######################################
+    SENHA PARA TROCAR > {new_password}
+    #######################################
 
 ```
     
